@@ -14,10 +14,10 @@ def insertionSort(array):
     return array
 
 print ("Enter a list of numbers to sort")
-sortedArray = []
+unsortedArray = []
 for i in range(5):
     a = int(input())
-    sortedArray.append(a)
+    unsortedArrayunsortedArray.append(a)
 
-print("Sorted Array: " + str(insertionSort(sortedArray)))
+print("Sorted Array: " + str(insertionSort(unsortedArray)))
 

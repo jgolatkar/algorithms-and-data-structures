@@ -17,7 +17,7 @@ print ("Enter a list of numbers to sort")
 unsortedArray = []
 for i in range(5):
     a = int(input())
-    unsortedArrayunsortedArray.append(a)
+    unsortedArray.append(a)
 
 print("Sorted Array: " + str(insertionSort(unsortedArray)))
 
